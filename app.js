@@ -1,4 +1,6 @@
 const form = document.listForm
+const chai = document.getElementById("workingList")
+const pup = document.getElementById("itemInput")
 
 /**the button is in the form so 
  * all you have to do is create a submit event
@@ -6,5 +8,9 @@ const form = document.listForm
 
 const addItem = form.addEventListener("submit", (e)=>{
     e.preventDefault()
-    //this is were your code will go to add items to a list to create the shopping list
+    const gold = pup.value
+    let itemElement = document.createElement("li")
+    itemElement.textContent = gold
+    chai.appendChild(itemElement)
+
 })

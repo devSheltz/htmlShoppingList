@@ -1,10 +1,10 @@
 this is a shopping list that im going to create using html js and css
 
 here are the project requirements
-### **Part 1**
+<!-- ### **Part 1**
 - Create a list in html
 - A user will be able to add list items to the pre-built `ul` using the pre-built form
-- New list items should have the same format as the `li`'s that come with the git repo
+- New list items should have the same format as the `li`'s that come with the git repo -->
 
 ### **Part 2**
 
