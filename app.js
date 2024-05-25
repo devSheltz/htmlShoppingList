@@ -7,11 +7,13 @@ deleteButton.textContent = "x"
 
 const addItem = form.addEventListener("submit", e=>{
     e.preventDefault()
-    let itemElement = document.createElement("li")
     const inputValue = itemInput.value
+    let itemElement = document.createElement("li")
     itemElement.textContent = inputValue
     listOfItems.append(itemElement, deleteButton)
+    form.reset()
 })
-const removeItem = form.addEventListener("click", e=>{
+const removeItem = deleteButton.addEventListener("click", e=>{
     e.preventDefault()
+    
 })
